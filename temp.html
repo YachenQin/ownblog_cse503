@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href="main.php">Back to the main page.</a>
+<input type="submit" name="submit" value="submit" id="submit">
+<form action="first_page.html" method="get">
+    <input type="submit" name="logout" value="logout" id="logout">
+</form>
+<a href="first_page.html">Back to first page</a>
+<a href="main.php">You can view story and comments as visitor(You cannot upload your own story and comment)</a>
+<!--<input type="label">-->
+<form action="upload.php" method="get">
+    <input type="submit" name="delete" value="delete" id="delete">
+</form>
+<a href="main.php?">Back to main page</a>
+<!--<input type="text">-->
+<label>But you cannot upload your own story and comment in this way</label>
+<form action="upload_comment.php" method="get">
+    <!--<labe></labe>-->
+    <label for="edit_story"></label>
+    <input type="text" id="edit_story" name="edit_story">
+    <br>
+    <input type="submit" value="edit_story">
+
+</form>
+</body>
+</html>

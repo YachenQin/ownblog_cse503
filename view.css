@@ -1,0 +1,124 @@
+body{
+    padding: 20px 5px 20px 20px;
+    text-align: center;
+    width:600px;
+}
+
+h3{
+    font-size: 20px;
+    font-family: "Arial Black";
+    font-weight: bolder;
+    color: lightcoral;
+}
+
+.title{
+    font-size: 30px;
+    font-family:"Comic Sans MS";
+    color:gray();
+}
+
+.author{
+    font-size: 15px;
+    font-family:"Bradley Hand";
+    color:darkslategray;
+}
+
+.context{
+    right:300px;
+    font-size: 20px;
+    font-family:"times";
+    color:black;
+    text-align: justify;
+    background-color: rgba(255, 253, 251, 0.35);
+}
+
+.background{
+    background-image: url(background.jpg);
+
+}
+
+.like{
+    font-size: 15px;
+    font-family:"Chalkduster";
+    color:hotpink;
+}
+
+.likebutton{
+    border: 1px solid rgba(255, 74, 147, 0.63);
+    background-color: rgba(255, 179, 55, 0);
+    font-size: 10px;
+    font-family:"Comic Sans MS";
+    display: inline;
+}
+
+.default{
+    border:1px solid lightblue;
+    position:absolute;
+    width:200px;
+    right:20px;
+    top: 20px;
+    text-align:center;
+    font-family: "American Typewriter";
+    font-size: 10px;
+}
+
+table {
+  border:1px solid #000;
+  font-family: times;
+  font-size:16px;
+  width:200px;
+  border:1px solid #000;
+  text-align:center;
+  border-collapse:collapse;
+}
+th {
+  background-color: #009FCC;
+  padding:10px;
+  border:1px solid #000;
+  color:#fff;
+}
+td {
+  border:1px solid #000;
+  padding:5px;
+}
+
+.infomation{
+    font-size: 10px;
+    text-align: end;
+    position: fixed;
+}
+
+.submitbutton{
+    border: 1px solid rgba(255, 84, 152, 0.12);
+    font-size: 10px;
+    font-family:"Comic Sans MS";
+}
+
+.editstorybutton{
+    border: 1px solid rgba(255, 84, 152, 0.12);
+    font-size: 10px;
+    font-family:"Comic Sans MS";
+    position: absolute;
+    left:660px;
+}
+.deletestorybutton{
+    border: 1px solid rgba(255, 84, 152, 0.12);
+    font-size: 10px;
+    font-family:"Comic Sans MS";
+    position: absolute;
+    left:760px;
+}
+
+.input{
+    border: 1px solid rgba(255,255,255,.5);
+    background-color:rgba(0,0,0,0.2);
+    background-clip: padding-box;
+    font-size: 20px;
+    font-family:"Comic Sans MS";
+}
+
+.upload{
+    font-size: 15px;
+    font-family:"Bradley Hand";
+    color:grey;
+}
